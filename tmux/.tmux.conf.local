@@ -406,7 +406,8 @@ set -g @resurrect-restore 'R'
 set -g @resurrect-strategy-nvim 'session'
 #set -g @plugin 'tmux-plugins/tmux-continuum'
 #set -g @continuum-restore 'on'
-
+set -g default-command /bin/zsh
+set -g default-shell /bin/zsh
 
 # -- custom variables ----------------------------------------------------------
 
