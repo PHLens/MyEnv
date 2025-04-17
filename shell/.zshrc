@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 # key bind for HOME/END.
 bindkey "\e[1~" beginning-of-line
 bindkey "\e[4~" end-of-line
